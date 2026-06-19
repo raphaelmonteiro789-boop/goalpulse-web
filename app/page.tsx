@@ -88,7 +88,31 @@ export default function Home() {
 
         <div className="bg-zinc-900 p-4 rounded-xl">
           Acompanhe jogos, grupos, artilharia e classificação.
-        </div>
+        <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+  <h3 className="font-bold mb-3">Grupo A</h3>
+
+  <div className="space-y-2 text-sm">
+    <div className="flex justify-between">
+      <span>🇧🇷 Brasil</span>
+      <span>6 pts</span>
+    </div>
+
+    <div className="flex justify-between">
+      <span>🇦🇷 Argentina</span>
+      <span>4 pts</span>
+    </div>
+
+    <div className="flex justify-between">
+      <span>🇫🇷 França</span>
+      <span>3 pts</span>
+    </div>
+
+    <div className="flex justify-between">
+      <span>🇺🇸 EUA</span>
+      <span>1 pt</span>
+    </div>
+  </div>
+</div>
       </section>
 <section className="p-6">
   <h2 className="text-2xl font-bold mb-4">
