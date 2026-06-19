@@ -69,9 +69,19 @@ export default function Home() {
           ⚽ Jogos Ao Vivo
         </h2>
 
-        <div className="bg-zinc-900 p-4 rounded-xl">
+        <div></div> className="bg-zinc-900 p-4 rounded-xl">
           Brasil 2 x 1 Argentina • 78'
-        </div>
+        <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+  <div className="flex justify-between items-center">
+    <span className="font-bold">🇧🇷 Brasil</span>
+    <span className="text-yellow-400 font-bold">2 x 1</span>
+    <span className="font-bold">🇦🇷 Argentina</span>
+  </div>
+
+  <div className="text-center text-sm text-gray-400 mt-2">
+    Ao Vivo • 78'
+  </div>
+</div>
       </section>
 
       <section className="p-6">
