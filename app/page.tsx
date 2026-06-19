@@ -36,17 +36,32 @@ export default function Home() {
           🔥 Notícias em Destaque
         </h2>
 
-        <div className="bg-zinc-900 p-4 rounded-xl mb-3">
-          Mbappé marca dois gols e lidera vitória.
-        </div>
+        <div className="bg-zinc-900 p-5 rounded-xl mb-3 border border-zinc-800 hover:border-blue-500">
+  <h3 className="font-bold text-lg">
+    Mbappé marca dois gols e lidera vitória
+  </h3>
+  <p className="text-gray-400 mt-2">
+    Craque francês foi o destaque da partida.
+  </p>
+</div>
 
-        <div className="bg-zinc-900 p-4 rounded-xl mb-3">
-          Brasil confirma vaga para próxima fase.
-        </div>
+<div className="bg-zinc-900 p-5 rounded-xl mb-3 border border-zinc-800 hover:border-green-500">
+  <h3 className="font-bold text-lg">
+    Brasil confirma vaga para próxima fase
+  </h3>
+  <p className="text-gray-400 mt-2">
+    Seleção garante classificação antecipada.
+  </p>
+</div>
 
-        <div className="bg-zinc-900 p-4 rounded-xl">
-          Flamengo anuncia novo reforço.
-        </div>
+<div className="bg-zinc-900 p-5 rounded-xl mb-3 border border-zinc-800 hover:border-red-500">
+  <h3 className="font-bold text-lg">
+    Flamengo anuncia novo reforço
+  </h3>
+  <p className="text-gray-400 mt-2">
+    Clube apresenta contratação para a temporada.
+  </p>
+</div>
       </section>
 
       <section className="p-6">
