@@ -83,7 +83,25 @@ export default function Home() {
           Acompanhe jogos, grupos, artilharia e classificação.
         </div>
       </section>
+<section className="p-6">
+  <h2 className="text-2xl font-bold mb-4">
+    📺 GoalPulse TV
+  </h2>
 
+  <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+    <h3 className="font-bold text-lg">
+      Melhores Momentos da Rodada
+    </h3>
+
+    <div className="bg-black rounded-lg h-52 flex items-center justify-center mt-4">
+      ▶️ Vídeo em destaque
+    </div>
+
+    <p className="text-gray-400 mt-3">
+      Assista aos gols, lances e entrevistas mais importantes do futebol.
+    </p>
+  </div>
+</section>
       <section className="p-6">
         <h2 className="text-2xl font-bold mb-4">
           📺 GoalPulse TV
