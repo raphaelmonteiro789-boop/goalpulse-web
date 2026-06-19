@@ -16,7 +16,21 @@ export default function Home() {
   <a href="#">Pulse AI</a>
 </nav>
       </header>
+<section className="p-6">
+  <div className="bg-gradient-to-r from-blue-900 to-purple-900 rounded-xl p-8 text-center">
+    <h2 className="text-4xl font-bold mb-3">
+      ⚡ Bem-vindo ao GoalPulse
+    </h2>
 
+    <p className="text-gray-300 mb-6">
+      Notícias, resultados, estatísticas e inteligência artificial do futebol em um só lugar.
+    </p>
+
+    <button className="bg-yellow-500 text-black px-6 py-3 rounded-lg font-bold hover:bg-yellow-400">
+      Ver Notícias
+    </button>
+  </div>
+</section>
       <section className="p-6">
         <h2 className="text-2xl font-bold mb-4">
           🔥 Notícias em Destaque
