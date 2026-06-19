@@ -70,9 +70,9 @@ export default function Home() {
         </h2>
 <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
   <div className="flex justify-between items-center">
-    <span className="font-bold">🇧🇷 Brasil</span>
+    <span className="font-bold">Brasil</span>
     <span className="text-yellow-400 font-bold">2 x 1</span>
-    <span className="font-bold">🇦🇷 Argentina</span>
+    <span className="font-bold">Argentina</span>
   </div>
 
   <div className="text-center text-sm text-gray-400 mt-2">
