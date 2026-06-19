@@ -9,6 +9,12 @@ export default function Home() {
         <p className="text-center text-gray-400 mt-2">
           A Inteligência do Futebol
         </p>
+        <nav className="mt-4 flex justify-center gap-6 text-sm">
+  <a href="#">Notícias</a>
+  <a href="#">Jogos</a>
+  <a href="#">GoalPulse TV</a>
+  <a href="#">Pulse AI</a>
+</nav>
       </header>
 
       <section className="p-6">
