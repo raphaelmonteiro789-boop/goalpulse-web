@@ -1,8 +1,6 @@
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-[#0A0A0A] py-16 px-6">
-
-      {/* Fundo gradiente azul */}
       <div
         aria-hidden
         className="absolute inset-0 pointer-events-none"
@@ -10,18 +8,11 @@ export default function Hero() {
           background: 'radial-gradient(ellipse 80% 60% at 50% 0%, rgba(0,102,255,0.15) 0%, transparent 70%)',
         }}
       />
-
       <div className="max-w-4xl mx-auto text-center relative z-10">
-
-        {/* Badge ao vivo */}
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#FF3B30]/10 border border-[#FF3B30]/30 mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-[#FF3B30] animate-pulse" />
-          <span className="text-xs font-bold text-[#FF3B30] tracking-widest uppercase">
-            Jogos Ao Vivo
-          </span>
+          <span className="text-xs font-bold text-[#FF3B30] tracking-widest uppercase">Jogos Ao Vivo</span>
         </div>
-
-        {/* Headline */}
         <h1 className="text-5xl md:text-6xl font-black tracking-tight leading-tight mb-6">
           <span className="text-white">A Inteligência</span>
           <br />
@@ -33,14 +24,11 @@ export default function Hero() {
             do Futebol
           </span>
         </h1>
-
         <p className="text-[#888888] text-lg max-w-xl mx-auto mb-8 leading-relaxed">
           Notícias, resultados, estatísticas e{' '}
           <span className="text-[#0066FF] font-semibold">Inteligência Artificial</span>{' '}
           do futebol em um só lugar.
         </p>
-
-        {/* CTAs */}
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a href="#noticias" className="px-6 py-3 bg-[#0066FF] hover:bg-[#0052CC] text-white font-semibold rounded-xl transition-colors text-sm">
             Ver Notícias
@@ -49,8 +37,6 @@ export default function Hero() {
             🤖 Pulse AI
           </a>
         </div>
-
-        {/* Stats */}
         <div className="flex flex-wrap justify-center gap-10 mt-14">
           {[
             { valor: '500+', label: 'Ligas monitoradas' },
@@ -63,7 +49,6 @@ export default function Hero() {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );
