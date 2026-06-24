@@ -1,24 +1,94 @@
-import { NextRequest, NextResponse } from 'next/server';
+export const dynamic = 'force-dynamic';
 
-const SYSTEM_PROMPT = `Você é o Pulse AI, assistente esportivo inteligente do GoalPulse.
-Você é especialista em futebol mundial. Responda sempre em português.
-Seja direto, apaixonado e técnico quando necessário.`;
+import { NextRequest } from 'next/server';
+
+const SYSTEM_PROMPT = `Você é o GoalPulse AI, um assistente inteligente especializado em futebol.
+Você tem conhecimento sobre:
+- Jogos ao vivo, resultados e classificações
+- Mercado de transferências e rumores
+- Copa do Mundo 2026
+- Estatísticas de jogadores e times
+- Notícias recentes do futebol mundial
+- História do futebol
+
+Responda sempre em português brasileiro, de forma concisa e informativa.
+Use emojis quando apropriado para tornar a conversa mais dinâmica.
+Se não souber algo, diga honestamente que não tem essa informação atualizada.
+Mantenha respostas curtas (máximo 3 parágrafos).`;
 
 export async function POST(request: NextRequest) {
   try {
-    const { messages } = await request.json();
-    const apiKey = process.env.ANTHROPIC_API_KEY;
-    if (!apiKey) return NextResponse.json({ resposta: 'API Key não configurada.' }, { status: 500 });
+    const body = await request.json();
+    const userMessages = body?.messages ?? [];
 
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
+    const apiMessages = [
+      { role: 'system', content: SYSTEM_PROMPT },
+      ...(userMessages ?? []).map((m: any) => ({
+        role: m?.role ?? 'user',
+        content: m?.content ?? '',
+      })),
+    ];
+
+    const response = await fetch('https://apps.abacus.ai/v1/chat/completions', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-api-key': apiKey, 'anthropic-version': '2023-06-01' },
-      body: JSON.stringify({ model: 'claude-haiku-4-5-20251001', max_tokens: 1024, system: SYSTEM_PROMPT, messages }),
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${process.env.ABACUSAI_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: 'gpt-5.4-mini',
+        messages: apiMessages,
+        stream: true,
+        max_tokens: 1000,
+      }),
     });
 
-    const data = await response.json();
-    return NextResponse.json({ resposta: data.content?.[0]?.text ?? 'Sem resposta.' });
-  } catch {
-    return NextResponse.json({ resposta: 'Erro ao processar.' }, { status: 500 });
+    if (!response?.ok) {
+      const errorText = await response?.text?.() ?? 'Erro desconhecido';
+      console.error('LLM API error:', errorText);
+      return new Response(
+        JSON.stringify({ error: 'Falha ao se comunicar com a IA' }),
+        { status: 500, headers: { 'Content-Type': 'application/json' } }
+      );
+    }
+
+    const stream = new ReadableStream({
+      async start(controller) {
+        const reader = response?.body?.getReader?.();
+        if (!reader) {
+          controller.close();
+          return;
+        }
+        const decoder = new TextDecoder();
+        const encoder = new TextEncoder();
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            const chunk = decoder.decode(value ?? new Uint8Array());
+            controller.enqueue(encoder.encode(chunk));
+          }
+        } catch (error: any) {
+          console.error('Stream error:', error);
+          controller.error(error);
+        } finally {
+          controller.close();
+        }
+      },
+    });
+
+    return new Response(stream, {
+      headers: {
+        'Content-Type': 'text/plain; charset=utf-8',
+        'Cache-Control': 'no-cache',
+        'Connection': 'keep-alive',
+      },
+    });
+  } catch (error: any) {
+    console.error('Pulse AI error:', error);
+    return new Response(
+      JSON.stringify({ error: 'Erro interno do servidor' }),
+      { status: 500, headers: { 'Content-Type': 'application/json' } }
+    );
   }
 }
