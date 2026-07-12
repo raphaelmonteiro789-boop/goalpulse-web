@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import { toast } from 'sonner';
 
 const navItems = [
@@ -24,12 +25,12 @@ const navItems = [
 ];
 
 interface HeaderProps {
-  onAiToggle: () => void;
-  onMenuToggle: () => void;
+  onAiToggle?: () => void;
+  onMenuToggle?: () => void;
   totalLive?: number;
 }
 
-export default function Header({ onAiToggle, onMenuToggle, totalLive }: HeaderProps) {
+export default function Header({ onAiToggle, onMenuToggle }: HeaderProps = {}) {
   const [activeNav, setActiveNav] = useState('Início');
   const [searchFocused, setSearchFocused] = useState(false);
 
@@ -39,7 +40,7 @@ export default function Header({ onAiToggle, onMenuToggle, totalLive }: HeaderPr
       <div className="max-w-[1440px] mx-auto px-4 h-14 flex items-center gap-4">
         {/* Mobile menu button */}
         <button
-          onClick={onMenuToggle}
+          onClick={() => onMenuToggle?.()}
           className="lg:hidden p-2 hover:bg-gp-dark-hover rounded-lg transition-colors"
         >
           <Menu className="w-5 h-5" />
@@ -72,6 +73,14 @@ export default function Header({ onAiToggle, onMenuToggle, totalLive }: HeaderPr
 
         {/* Right Actions */}
         <div className="flex items-center gap-3 flex-shrink-0 ml-auto">
+          {/* Store Button */}
+          <Link
+            href="/loja"
+            className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 bg-gp-dark-card border border-gp-dark-border rounded-lg text-white text-xs font-semibold hover:border-gp-blue/50 hover:text-gp-blue transition-all"
+          >
+            <span>🛍️ Loja</span>
+          </Link>
+
           {/* Premium Button */}
           <button onClick={() => toast.success('GoalPulse Premium - Em breve!')} className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-gp-gold/20 to-gp-gold/10 border border-gp-gold/30 rounded-lg text-gp-gold text-xs font-semibold hover:from-gp-gold/30 hover:to-gp-gold/20 transition-all">
             <Crown className="w-3.5 h-3.5" />
@@ -80,7 +89,7 @@ export default function Header({ onAiToggle, onMenuToggle, totalLive }: HeaderPr
 
           {/* AI Button */}
           <button
-            onClick={onAiToggle}
+            onClick={() => onAiToggle?.()}
             className="flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-gp-purple/20 to-gp-blue/20 border border-gp-purple/30 rounded-lg text-gp-purple text-xs font-semibold hover:from-gp-purple/30 hover:to-gp-blue/30 transition-all"
           >
             <Sparkles className="w-3.5 h-3.5" />
