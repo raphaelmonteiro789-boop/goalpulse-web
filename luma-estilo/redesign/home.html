@@ -1,0 +1,107 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--mauve:#8E4E66;--mauve-d:#6E3A4F;--lilas:#7A5C9C;--off:#F7F3F1;--ink:#1D1A1B;--muted:#6b6467}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Inter,sans-serif;color:var(--ink);background:#fff}
+a{color:inherit;text-decoration:none}
+.top{background:var(--ink);color:#fff;font-size:13px;display:flex;justify-content:center;gap:14px;padding:9px;letter-spacing:.04em}
+.top b{font-variant-numeric:tabular-nums;color:#F3C6D3}
+header{display:flex;align-items:center;gap:32px;padding:14px 40px;border-bottom:1px solid #eee}
+header img{height:52px}
+nav{display:flex;gap:26px;font-size:14px;font-weight:500;flex:1}nav .bf{color:var(--mauve);font-weight:800}
+.search{border:1px solid #ddd;border-radius:999px;padding:9px 16px;font-size:13px;color:#999;width:240px}
+.icons{display:flex;gap:18px;font-size:13px}
+.strip{display:flex;justify-content:center;align-items:center;gap:40px;padding:16px;background:var(--off);font-size:20px}
+.strip b{font-weight:800}.strip i{width:1px;height:28px;background:#bbb}
+
+
+
+
+
+.kicker{letter-spacing:.35em;font-size:13px;color:var(--mauve)}
+
+.off{display:flex;align-items:flex-end;gap:10px;margin:8px 0 6px}.off .n{font-size:110px;font-weight:800;line-height:.85;color:var(--mauve)}
+.off .p{font-size:30px;font-weight:800;line-height:1}.small{font-size:15px;opacity:.85}
+.cupom{display:inline-flex;border:1.5px solid var(--ink);border-radius:999px;overflow:hidden;margin:18px 0 22px;font-size:15px}
+.cupom span{padding:9px 14px}.cupom b{background:var(--ink);color:#fff;padding:9px 16px;letter-spacing:.06em}
+.btn{display:inline-block;background:var(--mauve);color:#fff;padding:16px 34px;border-radius:999px;font-weight:700;letter-spacing:.08em;font-size:14px}
+.hero{display:flex;align-items:center;gap:30px;padding:50px 60px;background:#fff;min-height:560px}
+.hero .txt{flex:0 0 420px;color:var(--ink)}.hero h1{font-family:'Playfair Display',serif;font-size:76px;line-height:.95;margin:14px 0}
+.hero .pics{flex:1;display:flex;gap:16px;height:460px}.hero .pics div{flex:1;background:#fff center/contain no-repeat}
+.hero .pics div:nth-child(2){margin-top:60px}
+.ben{display:flex;justify-content:space-around;padding:22px 40px;border-bottom:1px solid #eee;font-size:14px;font-weight:600}
+.ben div{display:flex;gap:10px;align-items:center}.ben svg{width:26px;height:26px;stroke:var(--mauve);fill:none;stroke-width:1.6}
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.cat{height:420px;background:#fff center 35%/62% no-repeat;position:relative}
+.cat{border-right:1px solid #eee}
+.cat div{position:absolute;bottom:22px;left:0;right:0;text-align:center;color:var(--ink)}.cat p{color:var(--mauve);font-weight:700}
+.cat h3{font-family:'Playfair Display',serif;font-size:34px}.cat p{font-size:15px;margin-top:4px}
+section.vit{padding:60px 40px}section.vit h2{text-align:center;font-family:'Playfair Display',serif;font-size:40px;margin-bottom:6px}
+.sub{text-align:center;color:var(--muted);margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card .im{aspect-ratio:3/4;background:#fff center/88% no-repeat;border:1px solid #f0eaea;position:relative}
+.tag{position:absolute;top:12px;left:12px;background:var(--mauve);color:#fff;font-size:12px;font-weight:800;padding:5px 10px;border-radius:4px}
+.card h4{font-size:14px;font-weight:500;margin-top:12px}.pr{margin-top:6px;font-size:13px;color:var(--muted)}
+.pr s{margin-right:6px}.pr b{color:var(--ink);font-size:17px}.parc{font-size:12px;color:var(--muted);margin-top:2px}
+.prog{background:var(--mauve);color:#fff;display:flex;justify-content:center;gap:60px;padding:34px;text-align:center}
+.prog .n{font-size:44px;font-weight:800}.prog p{font-size:14px;opacity:.9}
+.social{padding:60px 40px;background:var(--off);text-align:center}
+.social h2{font-family:'Playfair Display',serif;font-size:36px}
+.rev{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:28px;text-align:left}
+.rev div{background:#fff;padding:22px;border-radius:12px;font-size:14px;line-height:1.5}.rev b{color:#C9A227}
+.wa{padding:50px;text-align:center}.wa h2{font-family:'Playfair Display',serif;font-size:32px}
+.wa .f{display:inline-flex;margin-top:18px}.wa .f span{border:1px solid #ccc;border-right:0;padding:14px 18px;width:320px;text-align:left;color:#999;border-radius:999px 0 0 999px}
+.wa .f b{background:#25D366;color:#fff;padding:14px 22px;border-radius:0 999px 999px 0}
+@media(max-width:600px){
+ .hero{flex-direction:column;padding:24px 20px 30px;gap:18px}.hero .txt{order:2;flex:none}.hero .pics{order:1;flex:none;width:100%;height:300px}.hero{min-height:0}.hero .pics div:nth-child(n+2){display:none}
+ .hero h1{font-size:46px}.off .n{font-size:74px}.off .p{font-size:22px}
+
+ header{padding:10px 16px;gap:12px}header img{height:38px}nav,.search,.icons span{display:none}
+ .strip{font-size:13px;gap:10px}.top{font-size:11px;flex-wrap:wrap;gap:4px 8px;text-align:center}.strip i{height:18px}
+ 
+ 
+ .off .n{font-size:72px}.off .p{font-size:22px}
+ .ben{flex-wrap:wrap;gap:14px;padding:18px 16px;font-size:13px}.ben div{width:46%}
+ .cats{grid-template-columns:1fr 1fr}.cat{height:240px}.cat h3{font-size:22px}
+ section.vit{padding:40px 16px}.grid{grid-template-columns:1fr 1fr;gap:12px}
+ .prog{flex-direction:column;gap:14px;padding:26px}.rev{grid-template-columns:1fr}.social,.wa{padding:40px 16px}.wa .f span{width:200px}
+}
+</style></head><body>
+<div class="top">BLACK FRIDAY LUMA termina em <b>05 : 14 : 22 : 09</b> · Frete grátis para todo o Brasil</div>
+<header><img src="img/logo.png">
+<nav><a class="bf">Black Friday</a><a>Novidades</a><a>Jaquetas e Casacos</a><a>Calças</a><a>Camisas</a><a>Jeans</a><a>Ofertas</a></nav>
+<div class="search">O que você procura?</div><div class="icons"><span>Entrar</span><span>♡</span><span>🛍 0</span></div></header>
+<div class="strip"><span>todo o <b>site</b></span><i></i><span><b>até 30% OFF</b></span><i></i><span>por <b>tempo limitado</b></span></div>
+<div class="hero">
+ <div class="txt"><div class="kicker">LUMA ESTILO</div><h1>Black<br>Friday</h1>
+  <div class="off"><span class="n">30%</span><span class="p">OFF<br><span class="small">em jaquetas e casacos</span></span></div>
+  <div class="cupom"><span>cupom</span><b>BLACKLUMA</b></div><br><a class="btn">COMPRAR AGORA</a></div>
+ <div class="pics"><div style="background-image:url(img/couro_vinho.png)"></div><div style="background-image:url(img/bomber.png)"></div><div style="background-image:url(img/casaco.png)"></div></div>
+</div>
+<div class="ben">
+ <div><svg viewBox="0 0 24 24"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="17" cy="17.5" r="1.6"/></svg>Frete grátis Brasil</div>
+ <div><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg>6x sem juros</div>
+ <div><svg viewBox="0 0 24 24"><path d="M12 3l9 9-9 9-9-9z"/></svg>5% OFF no Pix</div>
+ <div><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5l2 2M20 12a8 8 0 0 1-14 5l-2-2"/></svg>Troca em 7 dias</div>
+ <div><svg viewBox="0 0 24 24"><path d="M5 19l1.5-4A7 7 0 1 1 9 18z"/></svg>Atendimento WhatsApp</div>
+</div>
+<div class="cats">
+ <a class="cat" style="background-image:url(img/couro_preta.png)"><div><h3>Jaquetas</h3><p>a partir de R$252</p></div></a>
+ <a class="cat" style="background-image:url(img/calca_preta.png)"><div><h3>Calças de Lã</h3><p>a partir de R$75</p></div></a>
+ <a class="cat" style="background-image:url(img/vintage_verm.png)"><div><h3>Camisas</h3><p>a partir de R$44</p></div></a>
+ <a class="cat" style="background-image:url(img/jeans.png)"><div><h3>Jeans</h3><p>R$190</p></div></a>
+</div>
+<section class="vit"><h2>Mais vendidos</h2><p class="sub">As peças que nossas clientes mais amam</p><div class="grid">
+ <div class="card"><div class="im" style="background-image:url(img/bomber.png)"><span class="tag">-30%</span></div><h4>Jaqueta Bomber Feminina</h4><div class="pr"><s>R$ 290,00</s><b>R$ 203,00</b></div><div class="parc">6x de R$ 33,83 sem juros</div></div>
+ <div class="card"><div class="im" style="background-image:url(img/couro_vinho.png)"><span class="tag">-30%</span></div><h4>Jaqueta de Couro Litchi - Vinho</h4><div class="pr"><s>R$ 252,00</s><b>R$ 176,40</b></div><div class="parc">6x de R$ 29,40 sem juros</div></div>
+ <div class="card"><div class="im" style="background-image:url(img/casaco.png)"><span class="tag">-30%</span></div><h4>Casaco Feminino Estilo Britânico</h4><div class="pr"><s>R$ 175,00</s><b>R$ 122,50</b></div><div class="parc">6x de R$ 20,42 sem juros</div></div>
+ <div class="card"><div class="im" style="background-image:url(img/couro_preta.png)"><span class="tag">-30%</span></div><h4>Jaqueta de Couro Litchi</h4><div class="pr"><s>R$ 252,00</s><b>R$ 176,40</b></div><div class="parc">6x de R$ 29,40 sem juros</div></div>
+</div></section>
+<div class="prog"><div><div class="n">10%</div><p>levando 2 peças</p></div><div><div class="n">15%</div><p>levando 3 peças</p></div><div><div class="n">Frete</div><p>grátis para todo o Brasil</p></div></div>
+<section class="social"><h2>Quem compra, recomenda</h2><div class="rev">
+ <div><b>★★★★★</b><br>Depoimento real de cliente, com nome e foto do look.</div>
+ <div><b>★★★★★</b><br>Depoimento real de cliente, com nome e foto do look.</div>
+ <div><b>★★★★★</b><br>Depoimento real de cliente, com nome e foto do look.</div></div></section>
+<section class="wa"><h2>Receba ofertas antes de todo mundo</h2><p class="sub" style="margin:6px 0 0">Entre na lista VIP da Luma no WhatsApp</p>
+<div class="f"><span>Seu WhatsApp</span><b>Quero entrar</b></div></section>
+</body></html>
