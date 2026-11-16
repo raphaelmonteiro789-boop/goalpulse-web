@@ -67,4 +67,4 @@ Referências: C&A, Riachuelo, Renner e Zara. Copie a **estrutura e a lógica de 
 6. **Mecânicas de oferta testadas pelo varejo:** desconto progressivo ("2 peças 10%, 3 peças 15%"), "2ª peça com 50%", cupom com nome curto (ex.: LUMA10, BLACKLUMA), frete grátis com valor mínimo e "Esquenta" uma semana antes da data.
 7. **Ordem da home:** faixa de topo → carrossel → mosaico de categorias → Novidades → Mais vendidos → faixa de benefícios → prova social (fotos de clientes ou Instagram) → newsletter/WhatsApp.
 8. **Tom visual da Luma:** posicionamento entre a C&A e a Zara. Foto grande e limpa como a Zara, oferta clara e direta como C&A e Riachuelo. Fundo claro, uma cor de destaque só para preço e botão.
-9. **Versão de celular primeiro:** mais de 80% do tráfego de moda é mobile. Título legível em 375 px de largura e botão com pelo menos 44 px de altura.
+9. **Versão de celular primeiro:** a maior parte do tráfego de moda vem do celular. Título legível em 375 px de largura e botão com pelo menos 44 px de altura.
