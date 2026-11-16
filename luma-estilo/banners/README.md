@@ -37,3 +37,17 @@ Para refazer: `python3 gerar.py && node render.js`. Os textos ficam no `gerar.py
 - [ ] Confirmar a oferta real (30% e cupom BLACKLUMA são exemplos) e criar o cupom no Wix
 - [ ] Ligar o botão "Entrar na lista VIP" a um link de WhatsApp ou formulário
 - [ ] As roupas das fotos são de IA e **não são as peças exatas do catálogo**: use as fotos como banner de campanha, nunca como foto de produto
+
+## Enviados para a mídia do Wix (16/11/2026)
+Estão em Mídia do Site / Arquivos do Site. Nenhum foi colocado no site que está no ar.
+| Banner | ID na mídia do Wix |
+|---|---|
+| black-friday-site | 75c299_a354c6f33f6f4437b5040246b6992ad7~mv2.jpg |
+| black-friday-mobile | 75c299_dab0f744132e44d68a0eec702685e7f0~mv2.jpg |
+| black-friday-stories | 75c299_7032b0fafd404eac875d4a2526c593c0~mv2.jpg |
+| novidades-site | 75c299_77f53ddaa53547b492e2f55911816851~mv2.jpg |
+| novidades-site-b | 75c299_619d3d8dc064458b946cce97143376c3~mv2.jpg |
+| novidades-mobile | 75c299_038fa64232be423892d9c223ba31f27a~mv2.jpg |
+| verao-site | 75c299_07169739a2cd49369f977fd36d7fe1ab~mv2.jpg |
+| verao-mobile | 75c299_4dc9ad680af54b45995547de1a35d724~mv2.jpg |
+| verao-stories | 75c299_ff91d253045a4a088bb58924501b8924~mv2.jpg |
