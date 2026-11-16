@@ -51,3 +51,10 @@ Estão em Mídia do Site / Arquivos do Site. Nenhum foi colocado no site que est
 | verao-site | 75c299_07169739a2cd49369f977fd36d7fe1ab~mv2.jpg |
 | verao-mobile | 75c299_4dc9ad680af54b45995547de1a35d724~mv2.jpg |
 | verao-stories | 75c299_ff91d253045a4a088bb58924501b8924~mv2.jpg |
+
+## Novos (16/11/2026, foto do Gemini)
+| Banner | ID na mídia do Wix |
+|---|---|
+| sociais-site | 75c299_a21ae0710e3640c5bb64ad1553cb775a~mv2.jpg |
+| sociais-mobile | 75c299_dddc08a2ad26437aab09084273d25397~mv2.jpg |
+| sociais-stories | 75c299_b09f38d0df8045829b5f04ab1f888b86~mv2.jpg |

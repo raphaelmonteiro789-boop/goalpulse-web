@@ -149,3 +149,10 @@ No painel do Wix da Luma Estilo, abra o app Dropi (já instalado, plano Básico 
 Ao final, me mostre a lista com nome, foto, custo, preço e fornecedor.
 ```
 Depois disso, volte na conversa do celular e diga "importei": o Claude Code revisa descrição, SEO, SKU e estoque pela API e libera as categorias de verão.
+
+
+## ATUALIZAÇÃO: 3º slide do banner (Roupas Sociais)
+Acrescente ao prompt, na etapa de banners:
+```
+- Slide 3 "Roupas Sociais": fundo = "sociais-site.jpg" (celular: "sociais-mobile.jpg"). Botão TRANSPARENTE em cima do botão desenhado "VER ROUPAS SOCIAIS" → Página de categoria "Roupas Sociais".
+```
