@@ -156,3 +156,11 @@ Acrescente ao prompt, na etapa de banners:
 ```
 - Slide 3 "Roupas Sociais": fundo = "sociais-site.jpg" (celular: "sociais-mobile.jpg"). Botão TRANSPARENTE em cima do botão desenhado "VER ROUPAS SOCIAIS" → Página de categoria "Roupas Sociais".
 ```
+
+
+## ATUALIZAÇÃO: Black Friday já está ativa (20% OFF automático até 29/11)
+Acrescente ao prompt, na etapa de banners, e coloque como PRIMEIRO slide:
+```
+- Slide 1 "Black Friday" (até 29/11/2026): fundo = "bf20-site.jpg" (celular: "bf20-mobile.jpg"). Botão TRANSPARENTE sobre "COMPRAR AGORA" → Todos os produtos. NÃO use os arquivos que começam com "black-friday-" (oferta errada). A faixa off-white do topo pode dizer: "Black Friday: 20% OFF em todo o site" | "Frete grátis acima de R$250" | "Até 29/11".
+- Em 30/11, remover o slide de Black Friday.
+```

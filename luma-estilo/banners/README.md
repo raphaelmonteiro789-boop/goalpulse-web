@@ -58,3 +58,7 @@ Estão em Mídia do Site / Arquivos do Site. Nenhum foi colocado no site que est
 | sociais-site | 75c299_a21ae0710e3640c5bb64ad1553cb775a~mv2.jpg |
 | sociais-mobile | 75c299_dddc08a2ad26437aab09084273d25397~mv2.jpg |
 | sociais-stories | 75c299_b09f38d0df8045829b5f04ab1f888b86~mv2.jpg |
+
+## ⚠️ Black Friday corrigida (16/11/2026)
+A regra real no Wix é **20% OFF automático em todos os produtos, de 16/11 a 29/11/2026, sem cupom** (criada em 10/11).
+Use SOMENTE os arquivos `bf20-site.jpg`, `bf20-mobile.jpg` e `bf20-stories.jpg`. Os antigos "black-friday-*" (30% + cupom BLACKLUMA) estão errados e NÃO devem ser usados.

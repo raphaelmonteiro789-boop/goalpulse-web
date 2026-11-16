@@ -42,14 +42,14 @@ TXT={
  'soc':'''<div class="wm">LUMA ESTILO</div><div class="k">ROUPAS SOCIAIS</div><h1>Elegância que<br>vai com você</h1>
  <p class="sub">Casacos, alfaiataria e blusas para o trabalho e muito além.</p><span class="btn">VER ROUPAS SOCIAIS</span>''',
  'bf':'''<div class="wm">LUMA ESTILO</div><h1>Black<br>Friday</h1>
- <div class="off"><span class="n">30%%</span><span class="p">OFF<small>em jaquetas e casacos</small></span></div>
- <div class="cup"><span>cupom</span><b>BLACKLUMA</b></div><br><span class="btn">COMPRAR AGORA</span>''',
+ <div class="off"><span class="n">20%%</span><span class="p">OFF<small>em todo o site</small></span></div>
+ <div class="cup"><span>sem cupom</span><b>ATÉ 29/11</b></div><br><span class="btn">COMPRAR AGORA</span>''',
  'verao':'''<div class="wm">LUMA ESTILO</div><div class="k">COLEÇÃO VERÃO</div><h1>O sol pede<br>leveza</h1>
  <p class="sub">Linho, vestidos e looks fresquinhos para os dias quentes.</p><span class="btn">ENTRAR NA LISTA VIP</span>''',
  'nov':'''<div class="wm">LUMA ESTILO</div><div class="k">NOVIDADES</div><h1>O novo look<br>da estação</h1>
  <p class="sub">Peças que acabaram de chegar para renovar seu guarda-roupa.</p><span class="btn">VER NOVIDADES</span>''',
 }
-NOTE={'bf':'*Oferta válida em peças selecionadas, enquanto durar o estoque.'}
+NOTE={'bf':'*Desconto aplicado automaticamente no carrinho, de 16/11 a 29/11/2026. Frete grátis acima de R$250.'}
 os.makedirs(D+'/html',exist_ok=True)
 lst=[]
 for nome,foto,fmt,tema,pos,ov,c in B:

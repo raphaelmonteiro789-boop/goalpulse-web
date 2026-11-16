@@ -13,7 +13,7 @@ Regras: frete grátis acima de R$250 (nunca "para todo o Brasil"), sem cupom ine
 | Qui | Stories | novidades-stories (usar novidades-mobile) + enquete | Engajar |
 | Sex | Feed | verao-mobile.jpg | Lista VIP de verão (WhatsApp) |
 | Sáb | Stories | verao-stories.jpg | Lista VIP |
-| Dom | Feed | black-friday-mobile.jpg | SÓ se a oferta e o cupom estiverem criados; senão, repetir Roupas Sociais |
+| Dom | Feed | bf20-mobile.jpg | Black Friday 20% OFF automático (ativo até 29/11) |
 
 ## Legendas
 
@@ -46,3 +46,10 @@ Vestidos leves, linho e looks fresquinhos estão a caminho. Quem entra na lista 
 
 ## Depois de conectar o Instagram
 O Claude cria os rascunhos no vidIQ, mostra para aprovação e agenda tudo. Toda semana: novo pacote + relatório.
+
+### Dom: Black Friday
+🖤 BLACK FRIDAY LUMA: 20% OFF EM TODO O SITE
+Sem cupom: o desconto já aparece no carrinho. Jaquetas, casacos, calças de lã, blusas e jeans com 20% de desconto até 29/11.
+🚚 Frete grátis acima de R$250 · 📏 P ao XG
+👉 Link da bio ou WhatsApp (47) 98919-3790
+#blackfriday #blackfriday2026 #modafeminina #promocao #lumaestilo
