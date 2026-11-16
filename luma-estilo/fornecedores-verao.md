@@ -66,3 +66,10 @@ neutra, tabela de medidas e como funcionam trocas e defeitos? Quero começar com
 - [ ] Prazo de postagem por escrito
 - [ ] Política de troca/defeito por escrito
 - [ ] Preço final: custo + frete + taxas + anúncio = margem mínima de 30% (fórmula da Empreendedora)
+
+## Histórico de contatos
+| Data | Fornecedor | Canal | Status |
+|---|---|---|---|
+| 16/11/2026 | Kaisan | E-mail falecom@kaisan.com.br, assunto "Parceria de revenda: Luma Estilo (Joinville/SC)" | ✅ Enviado pelo Gmail do Labamba. Aguardando resposta |
+| 16/11/2026 | Kaisan | WhatsApp (22) 99285-9800 | ⏳ Link pronto, Labamba envia do celular |
+| — | Dropi | Instalação no Wix | ⏳ Labamba instala pelo painel (link direto no chat) e escolhe o plano |
