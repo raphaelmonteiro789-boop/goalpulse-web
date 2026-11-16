@@ -21,3 +21,12 @@ Catálogo 100% inverno no começo do verão, sem linha fitness. Prioridade: cole
 ## Entregas padrão
 - Relatório de tendência com 10 peças, justificativa, preço-alvo e fornecedor possível.
 - Plano de compra: modelo, cores, grade, quantidade, custo e preço de venda (validado pela Empreendedora).
+
+## Coleção de duas estações (regra da marca)
+A Luma vende o look da estação: verão no verão, inverno no inverno. A coleção nova entra de 4 a 6 semanas antes da estação, e a que está saindo vai para liquidação. No Wix, use as categorias "Verão" e "Inverno".
+
+## Fornecedores pesquisados
+Detalhes em `luma-estilo/fornecedores-verao.md` (na raiz do repositório). Resumo:
+- **Dropi** (app oficial no Wix, brasileiro): AliExpress, CJ e Dropnacional. O plano Profissional (US$17/mês) libera o fornecedor nacional.
+- **Kaisan** (BR, moda praia, fitness e íntima), **Racy Modas** (BR, feminina e fitness), **Loja Rosa Tropical** (BR, moda praia).
+- Evitar fornecedor dos EUA ou da Europa (Modalyst, Spocket) para cliente brasileira, por causa do imposto e do prazo.
