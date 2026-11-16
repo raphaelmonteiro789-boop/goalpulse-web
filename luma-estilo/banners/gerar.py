@@ -33,9 +33,14 @@ B=[
  ('verao-stories','verao-praia-v.jpg','stories',DARK,'center top','linear-gradient(0deg,rgba(40,28,24,.82) 0 40%,rgba(40,28,24,0) 66%)','verao'),
  ('novidades-site','novidades-duas-h.jpg','site',LIGHT,'right 14%','none','nov'),
  ('novidades-site-b','novidades-blazer-h.jpg','site',LIGHT,'right 10%','linear-gradient(90deg,rgba(247,243,241,.88) 0 28%,rgba(247,243,241,0) 55%)','nov'),
+ ('sociais-site','sociais-casaco-h.jpg','site',LIGHT,'right 20%','linear-gradient(90deg,rgba(247,243,241,.92) 0 30%,rgba(247,243,241,0) 56%)','soc'),
+ ('sociais-mobile','sociais-casaco-h.jpg','mobile',LIGHT,'68% top','linear-gradient(0deg,rgba(247,243,241,.97) 0 34%,rgba(247,243,241,0) 56%)','soc'),
+ ('sociais-stories','sociais-casaco-h.jpg','stories',LIGHT,'68% top','linear-gradient(0deg,rgba(247,243,241,.97) 0 40%,rgba(247,243,241,0) 62%)','soc'),
  ('novidades-mobile','novidades-blazer-h.jpg','mobile',LIGHT,'71% top','linear-gradient(0deg,rgba(247,243,241,.97) 0 34%,rgba(247,243,241,0) 56%)','nov'),
 ]
 TXT={
+ 'soc':'''<div class="wm">LUMA ESTILO</div><div class="k">ROUPAS SOCIAIS</div><h1>Elegância que<br>vai com você</h1>
+ <p class="sub">Casacos, alfaiataria e blusas para o trabalho e muito além.</p><span class="btn">VER ROUPAS SOCIAIS</span>''',
  'bf':'''<div class="wm">LUMA ESTILO</div><h1>Black<br>Friday</h1>
  <div class="off"><span class="n">30%%</span><span class="p">OFF<small>em jaquetas e casacos</small></span></div>
  <div class="cup"><span>cupom</span><b>BLACKLUMA</b></div><br><span class="btn">COMPRAR AGORA</span>''',
