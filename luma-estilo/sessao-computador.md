@@ -130,3 +130,22 @@ Mostre prints.
 
 ## Depois de publicar
 Volte na conversa do celular (Claude Code) e diga **"publiquei"**: eu confiro tudo ao vivo e atualizo o relatório.
+
+---
+
+## PROMPT EXTRA: Importar produtos de verão do Dropi
+Pré-requisito: o Labamba já criou a conta no Dropi e assinou o plano Profissional (o Claude NÃO cria conta nem digita cartão).
+```
+No painel do Wix da Luma Estilo, abra o app Dropi (já instalado e com plano ativo). Importe produtos para a coleção de VERÃO seguindo estas regras:
+1. Só fornecedores com estoque NO BRASIL (Dropnacional / envio nacional). Não importe do exterior.
+2. Importe 12 peças femininas: 3 vestidos (midi ou longo, leves), 2 conjuntos (linho ou viscose), 2 shorts ou saias, 3 blusas/cropped/regatas, 2 saídas de praia.
+3. Proibido: qualquer marca, personagem ou estampa de terceiros (Disney, Marvel, grifes, times etc.) e produtos com avaliação abaixo de 4,5 ou com poucas vendas.
+4. Prefira cores neutras e da estação (off-white, bege, preto, terracota, verde, lilás) e fotos com fundo limpo e modelo.
+5. Preço de venda = custo do produto + frete do fornecedor, multiplicado por 2,2, arredondado para terminar em ,90. Me mostre a tabela custo × preço antes de publicar.
+6. Tamanhos: use somente P, M, G, GG e XG (opção "Tamanho"). Não crie um segundo seletor de tamanho. Se o fornecedor não tiver XG, me avise.
+7. Coloque cada produto na categoria certa da loja: Vestidos, Conjuntos, Shorts e Bermudas, Saias, Blusas e Camisas, Moda Praia, e também em "Verão 2026/2027".
+8. Nome em português, sem código de fornecedor (ex.: "Vestido Midi de Linho - Off-White").
+9. Deixe os produtos OCULTOS no site até eu aprovar a lista.
+Ao final, me mostre a lista com nome, foto, custo, preço e fornecedor.
+```
+Depois disso, volte na conversa do celular e diga "importei": o Claude Code revisa descrição, SEO, SKU e estoque pela API e libera as categorias de verão.
