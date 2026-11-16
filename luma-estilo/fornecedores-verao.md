@@ -13,7 +13,16 @@ Verão no verão (nov–mar), inverno no inverno (abr–ago). Coleção nova 4�
 | 5 | **Polo de moda de SC (Brusque, Blumenau, Gaspar)** | Atacado de vestidos, linho, malha, moda praia | Avaliar loja por loja | A cerca de 1h de Joinville | ✅ Para estoque próprio pequeno: entrega rápida, fotos próprias e peça conferida na mão |
 | — | Modalyst / Spocket (EUA/UE) | Vestuário importado | — | — | ❌ Imposto de importação e prazo longo para cliente brasileira |
 
-## Estratégia recomendada para o verão
+## ⚠️ Orçamento zero (definido em 16/11/2026)
+Só Claude e Gemini são pagos. Nenhuma mensalidade nova. Estratégia: **só fornecedor que cobra quando vende** (pagamento por pedido), ou compra com o dinheiro das primeiras vendas.
+| Opção | Custo fixo | Observação |
+|---|---|---|
+| **Dropi plano Básico (grátis)** | R$0/mês (5% por pedido, até 10 produtos) | ⚠️ No grátis, só fornecedores AliExpress: prazo longo e imposto de importação. Usar só se o produto mostrar envio nacional |
+| **Dropshipping nacional pago por pedido** (Racy Modas e outros) | R$0 fixo; paga o custo da peça só quando a cliente compra | ✅ Melhor para orçamento zero, mas exige amostra antes (reputação) |
+| **Kaisan (atacado)** | Exige compra de estoque | ⏳ Só depois das primeiras vendas, ou se oferecer envio direto sem pedido mínimo |
+| Dropi Profissional (US$17/mês) | Mensalidade | ❌ Fora do orçamento por enquanto |
+
+## Estratégia recomendada para o verão (versão paga, para quando houver caixa)
 1. **Agora:** instalar o Dropi (plano Profissional) e importar de 10 a 15 peças de fornecedor **nacional**: 3 vestidos, 2 conjuntos de linho, 2 shorts/saias, 3 blusas/cropped, 2 saídas de praia.
 2. **Paralelo:** pedido-teste na Kaisan (moda praia e fitness), de 3 a 5 peças, para conferir qualidade e prazo.
 3. **Melhor margem:** visitar o polo de Brusque e comprar uma grade pequena das 3 peças que mais venderem.

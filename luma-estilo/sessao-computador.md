@@ -134,11 +134,11 @@ Volte na conversa do celular (Claude Code) e diga **"publiquei"**: eu confiro tu
 ---
 
 ## PROMPT EXTRA: Importar produtos de verão do Dropi
-Pré-requisito: o Labamba já criou a conta no Dropi e assinou o plano Profissional (o Claude NÃO cria conta nem digita cartão).
+Pré-requisito: o Labamba já criou a conta no Dropi no plano **Básico (grátis)** (o Claude NÃO cria conta nem digita cartão). Orçamento zero: não assinar plano pago.
 ```
-No painel do Wix da Luma Estilo, abra o app Dropi (já instalado e com plano ativo). Importe produtos para a coleção de VERÃO seguindo estas regras:
+No painel do Wix da Luma Estilo, abra o app Dropi (já instalado, plano Básico grátis, limite de 10 produtos). NÃO assine nem faça upgrade de plano. Importe produtos para a coleção de VERÃO seguindo estas regras:
 1. Só fornecedores com estoque NO BRASIL (Dropnacional / envio nacional). Não importe do exterior.
-2. Importe 12 peças femininas: 3 vestidos (midi ou longo, leves), 2 conjuntos (linho ou viscose), 2 shorts ou saias, 3 blusas/cropped/regatas, 2 saídas de praia.
+2. Importe até 10 peças femininas: 3 vestidos, 2 conjuntos, 2 shorts ou saias, 2 blusas/cropped, 1 saída de praia. Prefira produtos com envio a partir do Brasil; se só houver envio internacional, me mostre o prazo antes de importar.
 3. Proibido: qualquer marca, personagem ou estampa de terceiros (Disney, Marvel, grifes, times etc.) e produtos com avaliação abaixo de 4,5 ou com poucas vendas.
 4. Prefira cores neutras e da estação (off-white, bege, preto, terracota, verde, lilás) e fotos com fundo limpo e modelo.
 5. Preço de venda = custo do produto + frete do fornecedor, multiplicado por 2,2, arredondado para terminar em ,90. Me mostre a tabela custo × preço antes de publicar.

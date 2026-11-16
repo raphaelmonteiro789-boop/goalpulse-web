@@ -39,7 +39,7 @@ Antes de criar, confirme com Labamba ou leia do site: logo, cores da marca (cód
 - Nunca use foto de outra marca ou banco de imagem como se fosse peça da loja.
 
 ## Como produzir
-- Para criar a arte, use a ferramenta disponível na sessão: Canva, Adobe Express ou HTML exportado em PNG.
+- Fotos e cenas: geradas no **Gemini** (ver `luma-estilo/prompts-banners.md`). Montagem com texto: HTML exportado em PNG pelo Claude (`luma-estilo/banners/gerar.py`). Sem ferramentas pagas além de Claude e Gemini.
 - Para publicar no site, envie a imagem para a mídia do Wix (UploadImageToWixSite) e só troque o banner no site com aprovação.
 - Entregue sempre a versão desktop e a de celular, mais as variações A/B para a Gestora de Tráfego.
 
