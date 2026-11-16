@@ -55,3 +55,14 @@ Legenda: ✅ corrigido e testado · 🟥 crítico (pendente) · 🟧 importante 
 - Links antigos `jaqueta-sltnx-feminina-com-zíper-preta` (com acento) e `camisa-preta-vintage-mulheres-hh-vermelho` → 301 para o produto novo.
 - Home: `<title>`, description, og e twitter novos no ar.
 - `/category/camisetas`: não aparece mais.
+
+## Rodada 2 (16/11/2026): regras definidas pelo Labamba
+| # | Item | Status |
+|---|---|---|
+| R1 | Frete grátis **acima de R$250** (antes R$199); abaixo: R$19,90 | ✅ Alterado no checkout e testado pela API |
+| R2 | Tamanhos **P, M, G, GG e XG** em todas as roupas | ✅ XG criado nos 17 produtos, com estoque liberado; descrições e SEO atualizados ("P ao XG"). Testado ao vivo |
+| R3 | **Seletor duplicado "Tamanhos"** (sobra do fornecedor, com tamanhos americanos e "libras", obrigatório) em 16 produtos | ✅ Removido. Agora a página tem só "Tamanho" P–XG. Testado ao vivo |
+| R4 | Produtos com marca de terceiros (direito autoral) | ✅ Apagados: Camiseta Disney Plus Size (2) e Calça Jeans "ZR" duplicada. Catálogo: 17 produtos, nenhum com marca |
+| R5 | Pagamento: crédito, débito, Pix e boleto | 🟧 Ativar no painel (Configurações → Aceitar pagamentos). Textos legais já atualizados |
+| R6 | WhatsApp Business (47) 98919-3790 | ✅ Nas descrições dos produtos · 🟧 Trocar no botão "Ligue" do editor: https://wa.me/5547989193790 |
+| R7 | Faixa do topo | 🟧 Trocar no editor para "Frete grátis acima de R$250" (evita propaganda enganosa) |

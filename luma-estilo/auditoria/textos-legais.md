@@ -18,7 +18,7 @@ Aceitamos troca por outro tamanho ou cor em até **[30] dias corridos** após o 
 Se a peça chegar com defeito, avise em até **30 dias corridos** após o recebimento. Nós pagamos o frete de devolução e você escolhe entre a troca por uma peça igual, outra peça de mesmo valor ou o reembolso.
 
 **Como solicitar**
-1. Fale com a gente pelo WhatsApp **(47) 98919-3790** ou pelo e-mail **contato@lumaestilo.com**, informando o número do pedido e o motivo.
+1. Fale com a gente pelo WhatsApp Business **(47) 98919-3790** ou pelo e-mail **contato@lumaestilo.com**, informando o número do pedido e o motivo.
 2. Enviamos as instruções e o código de postagem.
 3. Assim que a peça chega e é conferida, fazemos a troca ou o reembolso em até **[7] dias úteis**.
 
@@ -84,16 +84,16 @@ Dúvidas: **contato@lumaestilo.com**.
 *(substitui todo o texto atual da página "Termos e Condições")*
 
 **Sobre a loja**
-O site lumaestilo.com é operado pela **[RAZÃO SOCIAL]**, CNPJ **[00.000.000/0000-00]**, Rua Piratuba, 1718, Bom Retiro, Joinville/SC, CEP 89222-363. Atendimento: WhatsApp (47) 98919-3790 · contato@lumaestilo.com.
+O site lumaestilo.com é operado pela **[RAZÃO SOCIAL]**, CNPJ **[00.000.000/0000-00]**, Rua Piratuba, 1718, Bom Retiro, Joinville/SC, CEP 89222-363. Atendimento: WhatsApp Business (47) 98919-3790 · contato@lumaestilo.com.
 
 **Atendimento ao cliente**
 Atendemos de **[segunda a sexta, das 9h às 18h]** pelo WhatsApp e por e-mail. Mensagens recebidas fora desse horário são respondidas no próximo dia útil.
 
 **Preços e pagamento**
-Os preços estão em reais (R$) e podem mudar sem aviso, sempre respeitando o valor do momento da compra. Formas de pagamento: **[Pix, cartão de crédito em até X vezes, boleto]**. O pedido é confirmado após a aprovação do pagamento.
+Os preços estão em reais (R$) e podem mudar sem aviso, sempre respeitando o valor do momento da compra. Formas de pagamento: **cartão de crédito (em até [X] vezes), cartão de débito, Pix e boleto bancário**. O pedido é confirmado após a aprovação do pagamento.
 
 **Entrega**
-Enviamos para todo o Brasil. O frete e o prazo aparecem no carrinho antes de finalizar a compra. Frete grátis em compras a partir de **R$199**. O prazo começa a contar após a confirmação do pagamento.
+Enviamos para todo o Brasil. O frete e o prazo aparecem no carrinho antes de finalizar a compra. Frete grátis em compras a partir de **R$250**; abaixo desse valor, o frete é calculado no carrinho antes da finalização. O prazo começa a contar após a confirmação do pagamento.
 
 **Trocas e devoluções**
 Veja a nossa Política de Trocas e Devoluções.
@@ -115,3 +115,10 @@ LUMA ESTILO · [RAZÃO SOCIAL] · CNPJ [00.000.000/0000-00]
 Rua Piratuba, 1718 – Bom Retiro – Joinville/SC – CEP 89222-363
 contato@lumaestilo.com · WhatsApp (47) 98919-3790
 ```
+
+---
+
+## 6. Faixa do topo e botões (textos certos)
+- Faixa do topo: **Frete grátis acima de R$250 · Parcele no cartão · Pix**
+- Botão "Ligue"/WhatsApp: **https://wa.me/5547989193790** (texto: "Fale no WhatsApp")
+- Rodapé, formas de pagamento: **Cartão de crédito · Cartão de débito · Pix · Boleto**
