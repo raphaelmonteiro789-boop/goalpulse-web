@@ -66,3 +66,15 @@ Legenda: ✅ corrigido e testado · 🟥 crítico (pendente) · 🟧 importante 
 | R5 | Pagamento: crédito, débito, Pix e boleto | 🟧 Ativar no painel (Configurações → Aceitar pagamentos). Textos legais já atualizados |
 | R6 | WhatsApp Business (47) 98919-3790 | ✅ Nas descrições dos produtos · 🟧 Trocar no botão "Ligue" do editor: https://wa.me/5547989193790 |
 | R7 | Faixa do topo | 🟧 Trocar no editor para "Frete grátis acima de R$250" (evita propaganda enganosa) |
+
+## Rodada 3 (16/11/2026): tudo o que a API permite
+| # | Item | Status |
+|---|---|---|
+| R8 | Políticas no **checkout** (links no rodapé da finalização): Termos, Privacidade (LGPD), Trocas e Devoluções (CDC art. 49) e Fale Conosco | ✅ Publicadas e visíveis. Padrões adotados: troca em 30 dias com frete de ida pela cliente, reembolso em 7 dias úteis, atendimento seg–sex 9h–18h. Ajustáveis |
+| R9 | Nome do site "LOJA LUMA" → **"Luma Estilo"** (compartilhamentos, Google) e descrição do negócio | ✅ Confirmado ao vivo (og:site_name) |
+| R10 | App **Wix Hotels** sem uso | ✅ Removido |
+| R11 | **SKUs** em todas as variantes (padrão `LUMA-<produto>-<tamanho>`, ex.: LUMA-JAQ-BOMB-XG) | ✅ 85 SKUs criados, 85 variantes em estoque |
+| R12 | Categorias para o menu: Jeans e Roupas Sociais (visíveis, com produtos); Moletons, Sapatos, Chinelos e Sandálias, Acessórios, Moda Íntima (ocultas até ter produto) | ✅ |
+
+## O que falta (só no editor, no computador)
+Roteiro pronto em `../sessao-computador.md`.
