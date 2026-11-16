@@ -22,3 +22,8 @@ Detalhes de cada função em [`.claude/skills/luma-estilo-ceo/references/`](../.
 |---|---|---|
 | Compradora / Curadora | Tendências, mix de coleção, fornecedores | [07](../.claude/skills/luma-estilo-ceo/references/07-compradora.md) |
 | Assistente de Logística e Estoque | Estoque, embalagem, envio, trocas | [08](../.claude/skills/luma-estilo-ceo/references/08-logistica.md) |
+
+## 4. Design
+| Especialista | Faz o quê | Arquivo |
+|---|---|---|
+| Designer Gráfica | Banners do site, criativos de anúncio, artes de Instagram, identidade visual | [09](../.claude/skills/luma-estilo-ceo/references/09-designer-grafica.md) |
